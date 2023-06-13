@@ -535,6 +535,10 @@ section .card-description {
 /* footr section( contact me form) */
 
 footer {
+  background-color: #fff;
+}
+
+.background-main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -584,13 +588,13 @@ footer {
   width: 80%;
 }
 
-.contactme {
+/* .contactme {
   display: flex;
   flex-direction: column;
   justify-content: center;
   justify-items: center;
   padding: 0 25vw;
-}
+} */
 
 .input-form {
   border-radius: 7px;
